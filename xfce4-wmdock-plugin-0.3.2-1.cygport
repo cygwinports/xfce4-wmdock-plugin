@@ -1,0 +1,7 @@
+inherit xfce4
+
+
+PATCH_URI="
+	mirror://portage/xfce-extra/${PN}/files/${P}-libxfce4panel_h.patch
+	0.3.2-as-needed.patch
+"
