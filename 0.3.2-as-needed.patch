@@ -1,14 +1,13 @@
 --- origsrc/xfce4-wmdock-plugin-0.3.2/panel-plugin/Makefile.am	2009-01-26 15:43:10.000000000 -0600
 +++ src/xfce4-wmdock-plugin-0.3.2/panel-plugin/Makefile.am	2011-03-13 03:01:18.389625300 -0500
-@@ -17,9 +17,10 @@ xfce4_wmdock_plugin_CFLAGS =						\
+@@ -17,9 +17,9 @@ xfce4_wmdock_plugin_CFLAGS =						\
  	-DPACKAGE_LOCALE_DIR=\"$(localedir)\"
  
  xfce4_wmdock_plugin_LDADD =						\
-+	$(LIBXFCEGUI4_LIBS)							\
++	$(LIBXFCEGUI4_LIBS)						\
  	$(LIBXFCE4PANEL_LIBS)						\
  	$(LIBWNCK_LIBS)							\
--	$(LIBXFCEGUI4_LIBS)
-+	$(NULL)
+-	$(LIBXFCEGUI4_LIBS)						\
+ 	@X11_LIBS@
  
  #
- # Desktop file
