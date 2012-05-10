@@ -1,5 +1,5 @@
 category: Xfce
-requires: libcairo2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libwnck1_22 libX11_6 libxfce4util4 libxfcegui4_4 xfce4-panel
+requires: libcairo2 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libwnck1_22 libX11_6 libxfce4util6 libxfcegui4_4 xfce4-panel
 sdesc: "Xfce panel plugin for WindowMaker docks"
 ldesc: "The WMdock plugin is a compatibility layer for running 
 WindowMaker dockapps on the XFCE desktop. It integrates the dockapps 
