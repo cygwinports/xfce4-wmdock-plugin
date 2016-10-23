@@ -1,8 +1,8 @@
 inherit xfce4
 
 NAME="xfce4-wmdock-plugin"
-VERSION=0.3.4
-RELEASE=2
+VERSION=0.6.0
+RELEASE=1
 CATEGORY="Xfce"
 SUMMARY="Xfce panel plugin for WindowMaker docks"
 DESCRIPTION="The WMdock plugin is a compatibility layer for running
